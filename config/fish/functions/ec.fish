@@ -1,6 +1,6 @@
 # Start emacs and edit a file (or not)
 #
-function ec2
+function ec
   set -l frame_count (emacsclient -n -eval "(length (visible-frame-list))" 2> /dev/null)
 
   if test $status -eq 0
