@@ -1,3 +1,3 @@
-if command -s rvm > /dev/null
+if test -e ~/.rvm/bin/rvm
   rvm default
 end  
