@@ -1,6 +1,6 @@
 function vim
-  if command -v nivm > /dev/null
-    nvim $argv
+  if command -v emacsclient > /dev/null
+    ec $argv
   else
     /usr/bin/vim $argv
   end
