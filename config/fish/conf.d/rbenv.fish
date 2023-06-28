@@ -1,3 +1,3 @@
 if command -s rbenv > /dev/null
-  source (rbenv init - | psub)
+  status --is-interactive; and source (rbenv init - | psub)
 end  
