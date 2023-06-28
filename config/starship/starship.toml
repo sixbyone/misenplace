@@ -7,3 +7,9 @@ truncation_length = 8
 truncation_symbol = "…/"
 style = "bold cyan"
 format = " [$path]($style)[$read_only]($read_only_style) "
+
+[hostname]
+disabled = true
+
+[username]
+disabled = true
