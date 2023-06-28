@@ -6,17 +6,12 @@
 if status is-login
   fish_add_path ~/.local/bin
   fish_add_path /usr/local/sbin
-end
 
-# Add any architecture specific paths
-switch (uname)
-  case Linux
-  case Darwin
-    # On MacOS we use Homebrew for package management so 
-    # add the Homebrew paths.
-    if status is-login
-      fish_add_path /opt/homebrew/bin
-      fish_add_path /opt/homebrew/sbin
-    end 
-  case '*'
+  if test -d /opt/homebrew/
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  end
+
+  if test -d ~/.homebrew/
+    eval "$(~/.homebrew/bin/brew shellenv)"
+  end
 end
