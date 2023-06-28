@@ -1,6 +1,6 @@
 # This configuration file is executed first. We add the OS
 # specific paths here so that the other configuration files
-# and OS independant.
+# are OS independant.
 
 # Add any standard paths
 if status is-login
