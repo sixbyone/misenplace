@@ -44,8 +44,6 @@ set cindent
 highlight Normal ctermbg=None
 highlight LineNr ctermfg=DarkGrey
 
-"set statusline+=%{wordcount().words}\ words
-
 " Disable arrow keys so that I have to learn hjkl
 noremap <Up> <Nop>
 noremap <Down> <Nop>
@@ -125,3 +123,4 @@ let bufferline.letters =
 " Sets the name of unnamed buffers. By default format is "[Buffer X]"
 " where X is the buffer number. But only a static string is accepted here.
 let bufferline.no_name_title = v:null
+
