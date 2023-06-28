@@ -555,6 +555,7 @@ configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq vc-follow-symlinks t)
+  (global-visual-line-mode t)
   )
 
 
@@ -577,6 +578,9 @@ before packages are loaded."
   (setq racket-program "/opt/homebrew/bin/racket")
   (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
   (add-to-list 'default-frame-alist '(ns-appearance . dark))
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+  (setq web-mode-code-indent-offset 2)
 )
 
 
