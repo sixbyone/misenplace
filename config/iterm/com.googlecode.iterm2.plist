@@ -4347,8 +4347,10 @@
 	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
+	<key>OpenBookmark</key>
+	<false/>
 	<key>OpenNoWindowsAtStartup</key>
-	<true/>
+	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>2</integer>
 	<key>PointerActions</key>
@@ -4388,6 +4390,8 @@
 	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
+	<key>QuitWhenAllWindowsClosed</key>
+	<true/>
 	<key>RightOption</key>
 	<integer>3</integer>
 	<key>ShowFullScreenTabBar</key>
