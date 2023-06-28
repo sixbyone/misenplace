@@ -12,8 +12,8 @@ format = " [$path]($style)[$read_only]($read_only_style) "
 [hostname]
 ssh_only = false
 ssh_symbol = ""
-format = "<[$hostname](bold purple)> "
+format = "[$hostname](bold purple)> "
 
 [username]
 show_always = true
-format = "[$user](bold yellow)@"
+format = "[$user](bold yellow)[@](bold purple)"
