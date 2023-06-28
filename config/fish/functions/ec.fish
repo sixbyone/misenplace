@@ -15,7 +15,7 @@ function ec
   swallow_all "/opt/homebrew/bin/emacsclient -q -n $argv" stat 
   if test $stat
     osascript -e 'tell application "Emacs" to activate'
-    sleep 1 # Give Emacs a chance to get itself together 
+    sleep 5 # Give Emacs a chance to get itself together 
     /opt/homebrew/bin/emacsclient -q -n $argv
   end
 end
