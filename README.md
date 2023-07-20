@@ -1,2 +1,2 @@
 # misenplace
-An opinionated environment configuration
+An opinionated environment configuration for macOS and Linux.
